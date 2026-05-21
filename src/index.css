@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+.bg1 {
+    background-color: #F4F3F0;
+}
+.btn-bg1 {
+    background-color: #D2B48C;
+}
+.rancho {
+  font-family: "Rancho";
+  font-style: normal;
+}
