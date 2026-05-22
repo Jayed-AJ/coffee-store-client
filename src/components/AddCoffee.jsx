@@ -23,7 +23,7 @@ const AddCoffee = () => {
 
         // CREATE DATA in the data base
 
-        fetch('https://server-side-ochre-one.vercel.app/coffees',{
+        fetch('https://server-side-pearl-ten.vercel.app/coffees',{
             method: 'POST',
             headers: {
                 'content-type' : 'application/json'

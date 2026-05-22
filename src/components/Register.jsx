@@ -38,7 +38,7 @@ const Register = () => {
                     }
 
                     // save profile info in the DB
-                    fetch('https://server-side-ochre-one.vercel.app/users', {
+                    fetch('https://server-side-pearl-ten.vercel.app/users', {
                         method: 'POST',
                         headers: {
                             'content-type': 'application/json'

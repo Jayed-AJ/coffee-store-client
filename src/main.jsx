@@ -21,7 +21,7 @@ const router = createBrowserRouter([
       {
         index: true,
         Component: Home,
-        loader: () => fetch("https://server-side-ochre-one.vercel.app/coffees")
+        loader: () => fetch("https://server-side-pearl-ten.vercel.app/coffees")
       },
       {
         path: "/addCoffee",
@@ -30,12 +30,12 @@ const router = createBrowserRouter([
       {
         path: "/coffee/:id",
         Component: CoffeeDetails,
-        loader: ({params}) => fetch(`https://server-side-ochre-one.vercel.app/coffees/${params.id}`)
+        loader: ({params}) => fetch(`https://server-side-pearl-ten.vercel.app/coffees/${params.id}`)
       },
       {
         path: "/updateCoffee/:id",
         Component: UpdateCoffee,
-        loader: ({params}) => fetch(`https://server-side-ochre-one.vercel.app/coffees/${params.id}`)
+        loader: ({params}) => fetch(`https://server-side-pearl-ten.vercel.app/coffees/${params.id}`)
       },
       {
         path: "/register",
@@ -48,7 +48,7 @@ const router = createBrowserRouter([
       {
         path: '/users',
         Component: Users,
-        loader : () => fetch("https://server-side-ochre-one.vercel.app/users")
+        loader : () => fetch("https://server-side-pearl-ten.vercel.app/users")
       }
       
     ]

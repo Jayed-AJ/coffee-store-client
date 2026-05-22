@@ -19,7 +19,7 @@ const UpdateCoffee = () => {
 
         // update data to database
 
-        fetch(`https://server-side-ochre-one.vercel.app/coffees/${_id}`, {
+        fetch(`https://server-side-pearl-ten.vercel.app/coffees/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

@@ -21,7 +21,7 @@ const Login = () => {
                 }
                 console.log(updateLoginTime)
 
-                fetch("https://server-side-ochre-one.vercel.app/users",{
+                fetch("https://server-side-pearl-ten.vercel.app/users",{
                     method: 'PATCH',
                     headers: {
                         'content-type': 'application/json'
